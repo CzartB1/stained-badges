@@ -1,0 +1,138 @@
+[gd_scene format=3 uid="uid://bu1csmilirgu0"]
+
+[ext_resource type="PackedScene" uid="uid://dlbkch6iuy8gn" path="res://addons/fp_controller/player.tscn" id="1_ua2su"]
+[ext_resource type="Script" uid="uid://dbok6vhwjkews" path="res://assets/scripts/file_giver.gd" id="2_j4v3h"]
+[ext_resource type="Script" uid="uid://b7mtj844d5ml8" path="res://assets/scripts/file_resource.gd" id="3_kokmn"]
+[ext_resource type="Script" uid="uid://cmry2tew4l6co" path="res://assets/scripts/file_holder.gd" id="3_oyfuy"]
+[ext_resource type="Script" uid="uid://bv5nu0g660bbl" path="res://assets/scripts/file_taker.gd" id="4_kokmn"]
+[ext_resource type="Script" uid="uid://bn27bjdjylrp1" path="res://assets/scripts/file_shredder.gd" id="5_qsmyb"]
+[ext_resource type="Script" uid="uid://bmxhgnmd0iw02" path="res://assets/scripts/bed.gd" id="6_a0c30"]
+[ext_resource type="Script" uid="uid://dje5lekshlvbv" path="res://assets/scripts/day_manager.gd" id="6_cinqg"]
+[ext_resource type="Script" uid="uid://c1jt00wkmn3k4" path="res://assets/scripts/file_database.gd" id="7_5eqnl"]
+[ext_resource type="Script" uid="uid://csvd5aqnyt6ey" path="res://assets/scripts/econ_manager.gd" id="9_drwea"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1xmyu"]
+size = Vector3(100, 0.25, 100)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_ua2su"]
+size = Vector2(100, 100)
+
+[sub_resource type="Resource" id="Resource_cinqg"]
+script = ExtResource("3_kokmn")
+file_name = "Test file 1"
+metadata/_custom_type_script = "uid://b7mtj844d5ml8"
+
+[sub_resource type="Resource" id="Resource_kokmn"]
+script = ExtResource("3_kokmn")
+file_name = "test 2w"
+file_importance = 1
+metadata/_custom_type_script = "uid://b7mtj844d5ml8"
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_oyfuy"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_j4v3h"]
+
+[node name="test_scene" type="Node3D" unique_id=1037204714]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1744843344]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1076855069]
+shape = SubResource("BoxShape3D_1xmyu")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D" unique_id=1762741532]
+mesh = SubResource("PlaneMesh_ua2su")
+
+[node name="Player" parent="." unique_id=1382622913 instance=ExtResource("1_ua2su")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.81879425, 0.625, -1.3428497)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=600300378]
+transform = Transform3D(1, 0, 0, 0, 0.81458145, 0.58004916, 0, -0.58004916, 0.81458145, 0, 4.975648, 0)
+shadow_enabled = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=1967622994]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 1.2497559, -1.5)
+use_collision = true
+size = Vector3(1, 2.5004883, 4)
+
+[node name="file_giver" type="StaticBody3D" parent="." unique_id=1866675398 node_paths=PackedStringArray("day_manager")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 1, 0)
+script = ExtResource("2_j4v3h")
+files = Array[ExtResource("3_kokmn")]([SubResource("Resource_cinqg"), SubResource("Resource_kokmn")])
+day_manager = NodePath("../managers/day_manager")
+object_name = "Case Printer"
+metadata/_custom_type_script = "uid://5vtvqawsl1dw"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="file_giver" unique_id=805204181]
+shape = SubResource("BoxShape3D_oyfuy")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="file_giver" unique_id=691183008]
+mesh = SubResource("BoxMesh_j4v3h")
+
+[node name="file_taker" type="StaticBody3D" parent="." unique_id=1779620866 node_paths=PackedStringArray("database")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 1, -9)
+script = ExtResource("4_kokmn")
+database = NodePath("../managers/file_database")
+object_name = "Case Pile"
+metadata/_custom_type_script = "uid://5vtvqawsl1dw"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="file_taker" unique_id=1764200798]
+shape = SubResource("BoxShape3D_oyfuy")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="file_taker" unique_id=747825721]
+mesh = SubResource("BoxMesh_j4v3h")
+
+[node name="file_shredder" type="StaticBody3D" parent="." unique_id=1679569731]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 1, -15)
+script = ExtResource("5_qsmyb")
+object_name = "Case Shredder"
+metadata/_custom_type_script = "uid://5vtvqawsl1dw"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="file_shredder" unique_id=472958232]
+shape = SubResource("BoxShape3D_oyfuy")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="file_shredder" unique_id=733560695]
+mesh = SubResource("BoxMesh_j4v3h")
+
+[node name="bed" type="StaticBody3D" parent="." unique_id=859472168 node_paths=PackedStringArray("day")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 1, -2)
+script = ExtResource("6_a0c30")
+day = NodePath("../managers/day_manager")
+object_name = "Bed"
+metadata/_custom_type_script = "uid://5vtvqawsl1dw"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="bed" unique_id=340114148]
+shape = SubResource("BoxShape3D_oyfuy")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="bed" unique_id=293348656]
+mesh = SubResource("BoxMesh_j4v3h")
+
+[node name="managers" type="Node" parent="." unique_id=1425501508]
+
+[node name="file_holder" type="Node" parent="managers" unique_id=1257393311]
+script = ExtResource("3_oyfuy")
+
+[node name="day_manager" type="Node" parent="managers" unique_id=1217677561 node_paths=PackedStringArray("econ")]
+script = ExtResource("6_cinqg")
+econ = NodePath("../econ_manager")
+
+[node name="file_database" type="Node" parent="managers" unique_id=2141345450]
+script = ExtResource("7_5eqnl")
+
+[node name="econ_manager" type="Node" parent="managers" unique_id=439329680]
+script = ExtResource("9_drwea")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=675274634]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=521570145]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer/Control" unique_id=766412529]
+layout_mode = 0
+offset_right = 213.0
+offset_bottom = 40.0
+bbcode_enabled = true
