@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="FileResource" format=3 uid="uid://byp1gf6nuryys"]
+
+[ext_resource type="Texture2D" uid="uid://belelj25ighit" path="res://assets/img/placeholder/does-67-still-work-in-2022-v0-ynul249vekpf1.webp" id="1_2abon"]
+[ext_resource type="Script" uid="uid://b7mtj844d5ml8" path="res://assets/scripts/file_resource.gd" id="1_f425d"]
+
+[resource]
+script = ExtResource("1_f425d")
+img = ExtResource("1_2abon")
+metadata/_custom_type_script = "uid://b7mtj844d5ml8"

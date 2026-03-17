@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="FileResource" format=3 uid="uid://b2vmq6mvhwjyw"]
+
+[ext_resource type="Script" uid="uid://b7mtj844d5ml8" path="res://assets/scripts/file_resource.gd" id="1_11eba"]
+[ext_resource type="Texture2D" uid="uid://b0oae0bp23ndd" path="res://assets/img/placeholder/ap24195806765830.webp" id="1_lgd63"]
+
+[resource]
+script = ExtResource("1_11eba")
+img = ExtResource("1_lgd63")
+file_importance = 1
+metadata/_custom_type_script = "uid://b7mtj844d5ml8"
