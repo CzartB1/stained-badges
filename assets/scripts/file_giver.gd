@@ -1,7 +1,7 @@
 extends Interactable
 
 var holder:FileHolder
-@export var files: Array[FileResource]
+@export var files: FileDatabase
 @export var day_manager: DayManager
 
 func execute() -> void:
@@ -10,5 +10,5 @@ func execute() -> void:
 	if day_manager.current_case_amount==0: 
 		print("[File Giver] files empty")
 		return
-	holder.new_file(files.pick_random())
+	holder.new_file(files.get_file())
 	day_manager.take_file()

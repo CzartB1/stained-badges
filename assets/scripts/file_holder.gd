@@ -3,6 +3,7 @@ extends Node
 
 var current_file:FileResource
 @export var file_shower:TextureRect
+@export var hand:TextureRect
 
 func _ready() -> void:
 	self.add_to_group("FileHolder")
@@ -15,6 +16,7 @@ func new_file(file:FileResource):
 	print("[FILE HOLDER] current file importance: "+str(file.importance.find_key(file.file_importance)))
 
 func _process(delta: float) -> void:
+	hand.visible=current_file!=null
 	if current_file:
 		if Input.is_action_just_pressed("read_file"):
 			print("[FILE HOLDER] reading file")

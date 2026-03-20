@@ -3,6 +3,7 @@ extends Interactable
 var holder:FileHolder
 #@export var importance: FileResource.importance
 @export var database: FileDatabase
+@export var story:StoryManager
 
 func execute() -> void:
 	super.execute()
@@ -12,4 +13,13 @@ func execute() -> void:
 	else: 
 		database.solved_files.append(holder.current_file)
 		print("[FILE TAKER] File taken.")
+	match holder.current_file.file_importance:
+		FileResource.importance.unimportant:
+			story.incompetency+=1
+		FileResource.importance.corrupt:
+			story.suspicion+=1
 	holder.take_current_file()
+	
+	story.check_corrupt_route()
+	story.check_incompetent_route()
+	story.check_sus_route()

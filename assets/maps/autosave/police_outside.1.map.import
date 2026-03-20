@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://dax3exj41gp5r"
+path="res://.godot/imported/police_outside.1.map-914cf40695e89ba72c1aea8039ab8227.tres"
+
+[deps]
+
+source_file="res://assets/maps/autosave/police_outside.1.map"
+dest_files=["res://.godot/imported/police_outside.1.map-914cf40695e89ba72c1aea8039ab8227.tres"]
+
+[params]
+

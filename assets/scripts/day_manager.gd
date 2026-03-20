@@ -5,6 +5,7 @@ var day_number:int=1
 var current_case_amount:int=3
 var current_case_reset_amount:int=3
 @export var passive_case_increase:int=2
+@export var story:StoryManager
 @export var econ:EconomyManager
 
 func next_day():
@@ -13,6 +14,7 @@ func next_day():
 	day_number+=1
 	current_case_reset_amount+=passive_case_increase
 	current_case_amount=current_case_reset_amount
+	story.check_for_calls()
 
 func take_file():
 	current_case_amount-=1
