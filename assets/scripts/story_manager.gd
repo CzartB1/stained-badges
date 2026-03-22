@@ -6,6 +6,9 @@ extends Node
 @export var incompetency:int
 @export var debug_label:RichTextLabel
 @export var phone:Phone
+
+@export_group("corrupt route")
+@export var demo:Node3D
 @export var killer_scene:PackedScene
 @export var killer_spawn:Node3D
 var call_queue:Array[DialogueResource]
@@ -18,6 +21,7 @@ var corrupt_event:int=0
 
 func _ready() -> void:
 	debug_label.visible=false
+	demo.visible=false
 
 func _process(delta: float) -> void:
 	if Input.is_action_pressed("debug_vars"):
@@ -51,10 +55,10 @@ func check_corrupt_route():
 		print("[STORY] play event 1")
 	elif corrupt>=4 and corrupt_event<=1:
 		corrupt_event=2
+		demo.visible=true
 		print("[STORY] play event 2")
 	elif corrupt>=5 and corrupt_event<=2:
 		corrupt_event=3
-		
 		print("[STORY] spawn killer")
 
 func check_incompetent_route():
