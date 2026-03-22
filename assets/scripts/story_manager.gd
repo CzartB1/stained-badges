@@ -43,7 +43,7 @@ func check_sus_route():
 		print("[STORY] play event 2")
 	elif suspicion>=5 and sus_event<=2:
 		sus_event=3
-		print("[STORY] spawn killer")
+		print("[STORY] killed")
 
 func check_corrupt_route():
 	if corrupt>=1 and corrupt_event<=0:
@@ -54,6 +54,7 @@ func check_corrupt_route():
 		print("[STORY] play event 2")
 	elif corrupt>=5 and corrupt_event<=2:
 		corrupt_event=3
+		
 		print("[STORY] spawn killer")
 
 func check_incompetent_route():
