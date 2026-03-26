@@ -70,7 +70,7 @@ read_file={
 
 [internationalization]
 
-locale/translations_pot_files=PackedStringArray("res://assets/dialogues/dialogue.dialogue")
+locale/translations_pot_files=PackedStringArray("res://assets/dialogues/dialogue.dialogue", "res://assets/dialogues/intro.dialogue")
 
 [physics]
 
