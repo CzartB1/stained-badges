@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="FileResource" format=3 uid="uid://b5mebfqfbeftr"]
+
+[ext_resource type="Texture2D" uid="uid://bp8lcl52xw72n" path="res://assets/img/cases/Stalking.png" id="1_d8csx"]
+[ext_resource type="Script" uid="uid://b7mtj844d5ml8" path="res://assets/scripts/file_resource.gd" id="2_5gwb7"]
+
+[resource]
+script = ExtResource("2_5gwb7")
+img = ExtResource("1_d8csx")
+file_importance = 1
+metadata/_custom_type_script = "uid://b7mtj844d5ml8"

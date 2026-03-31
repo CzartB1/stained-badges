@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://deb5cryf6bb66"
+path="res://.godot/imported/ammo_box_1.obj-42c7a2914b2958b1268c65ff1f6c03fe.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ammo_box_1.obj-42c7a2914b2958b1268c65ff1f6c03fe.mesh"]
+
+source_file="res://assets/textures/PSX Mega Pack/Models/other-formats/OBJ/Items & Weapons/ammo_box_1.obj"
+dest_files=["res://.godot/imported/ammo_box_1.obj-42c7a2914b2958b1268c65ff1f6c03fe.mesh", "res://.godot/imported/ammo_box_1.obj-42c7a2914b2958b1268c65ff1f6c03fe.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -8,6 +8,16 @@ extends Node
 
 func get_file() -> FileResource:
 	var acceptable = files
-	if day.day_number<2: 
-		acceptable.filter(func(a:FileResource):a.file_importance==FileResource.importance.corrupt)
+	
+	if day.day_number < 3:
+		print("[database] early file filter")
+		acceptable = acceptable.filter(
+			func(a: FileResource): 
+				return a.file_importance != FileResource.importance.corrupt
+		)
+	
+	if acceptable.is_empty():
+		push_warning("[database] no acceptable files, falling back")
+		acceptable = files
+	
 	return acceptable.pick_random()

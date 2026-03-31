@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://3jyqaxw565cd"
+path="res://.godot/imported/ceiling_fan_mp_2_1_light_on.obj-61e2b13f1cce064b8e764c056de5b52d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ceiling_fan_mp_2_1_light_on.obj-61e2b13f1cce064b8e764c056de5b52d.mesh"]
+
+source_file="res://assets/textures/PSX Mega Pack/Models/other-formats/OBJ/Electronics & Misc/ceiling_fan_mp_2_1_light_on.obj"
+dest_files=["res://.godot/imported/ceiling_fan_mp_2_1_light_on.obj-61e2b13f1cce064b8e764c056de5b52d.mesh", "res://.godot/imported/ceiling_fan_mp_2_1_light_on.obj-61e2b13f1cce064b8e764c056de5b52d.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

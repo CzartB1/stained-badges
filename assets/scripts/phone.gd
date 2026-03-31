@@ -3,15 +3,26 @@ extends Interactable
 
 @export var current_dialogue: DialogueResource
 @export var effect: Sprite3D
+@export var ringtone: AudioStream
+@export var audplr: AudioStreamPlayer3D
 var in_call=false
 
 func _ready() -> void:
 	effect.visible=false
+	audplr.stream = ringtone
 
 func _process(delta: float) -> void:
-	if current_dialogue and !effect.visible:
-		effect.visible=true
-	else: effect.visible=false
+	if current_dialogue:
+		effect.visible = true
+		
+		if !audplr.playing:
+			audplr.play()
+			print("[phone] playing ringtone")
+	else:
+		effect.visible = false
+		
+		if audplr.playing:
+			audplr.stop()
 
 func execute() -> void:
 	if current_dialogue:

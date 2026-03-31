@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://vvlyh424sw31"
+path="res://.godot/imported/curtain_rod_mp_1.obj-90b666382aaec41dbb1a42a210c64c71.mesh"
+
+[deps]
+
+files=["res://.godot/imported/curtain_rod_mp_1.obj-90b666382aaec41dbb1a42a210c64c71.mesh"]
+
+source_file="res://assets/textures/PSX Mega Pack/Models/other-formats/OBJ/Large Props/curtain_rod_mp_1.obj"
+dest_files=["res://.godot/imported/curtain_rod_mp_1.obj-90b666382aaec41dbb1a42a210c64c71.mesh", "res://.godot/imported/curtain_rod_mp_1.obj-90b666382aaec41dbb1a42a210c64c71.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

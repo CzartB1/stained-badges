@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dmxnlk13i3xb1"
+path="res://.godot/imported/fake_light_window_2_single.obj-ded11469a54bea7b66ac07299b6c89d1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fake_light_window_2_single.obj-ded11469a54bea7b66ac07299b6c89d1.mesh"]
+
+source_file="res://assets/textures/PSX Mega Pack/Models/other-formats/OBJ/Lighting/fake_light_window_2_single.obj"
+dest_files=["res://.godot/imported/fake_light_window_2_single.obj-ded11469a54bea7b66ac07299b6c89d1.mesh", "res://.godot/imported/fake_light_window_2_single.obj-ded11469a54bea7b66ac07299b6c89d1.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

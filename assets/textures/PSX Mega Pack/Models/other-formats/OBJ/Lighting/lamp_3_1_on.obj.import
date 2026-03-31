@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dcu42jsb5wdxf"
+path="res://.godot/imported/lamp_3_1_on.obj-f23055d9adc1576250f1e8805a9e818f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/lamp_3_1_on.obj-f23055d9adc1576250f1e8805a9e818f.mesh"]
+
+source_file="res://assets/textures/PSX Mega Pack/Models/other-formats/OBJ/Lighting/lamp_3_1_on.obj"
+dest_files=["res://.godot/imported/lamp_3_1_on.obj-f23055d9adc1576250f1e8805a9e818f.mesh", "res://.godot/imported/lamp_3_1_on.obj-f23055d9adc1576250f1e8805a9e818f.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

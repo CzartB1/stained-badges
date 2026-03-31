@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://chrtoxxwxvr8u"
+path="res://.godot/imported/tv_table_1_2.obj-7b989132d06d71d535bda4fb88b210ca.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tv_table_1_2.obj-7b989132d06d71d535bda4fb88b210ca.mesh"]
+
+source_file="res://assets/textures/PSX Mega Pack/Models/other-formats/OBJ/Furniture/tv_table_1_2.obj"
+dest_files=["res://.godot/imported/tv_table_1_2.obj-7b989132d06d71d535bda4fb88b210ca.mesh", "res://.godot/imported/tv_table_1_2.obj-7b989132d06d71d535bda4fb88b210ca.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

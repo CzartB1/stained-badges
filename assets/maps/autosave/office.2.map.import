@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://dmavxexec77nn"
+path="res://.godot/imported/office.2.map-75cb60ba0214e537626c5fd97b8c9bae.tres"
+
+[deps]
+
+source_file="res://assets/maps/autosave/office.2.map"
+dest_files=["res://.godot/imported/office.2.map-75cb60ba0214e537626c5fd97b8c9bae.tres"]
+
+[params]
+

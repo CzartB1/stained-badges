@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cwbpmhgj5mrqd"
+path="res://.godot/imported/cash_4.obj-3c83ebc308f15ad09043679f88b747fb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cash_4.obj-3c83ebc308f15ad09043679f88b747fb.mesh"]
+
+source_file="res://assets/textures/PSX Mega Pack/Models/other-formats/OBJ/Items & Weapons/cash_4.obj"
+dest_files=["res://.godot/imported/cash_4.obj-3c83ebc308f15ad09043679f88b747fb.mesh", "res://.godot/imported/cash_4.obj-3c83ebc308f15ad09043679f88b747fb.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

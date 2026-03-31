@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://d0qyj3axv62tt"
+path="res://.godot/imported/sus_intro.dialogue-9b1f0a5a4aaa1972dc379aeaa18fd8b0.tres"
+
+[deps]
+
+source_file="res://assets/dialogues/sus_intro.dialogue"
+dest_files=["res://.godot/imported/sus_intro.dialogue-9b1f0a5a4aaa1972dc379aeaa18fd8b0.tres"]
+
+[params]
+
+defaults=true

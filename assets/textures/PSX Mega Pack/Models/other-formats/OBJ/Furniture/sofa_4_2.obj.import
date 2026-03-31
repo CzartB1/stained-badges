@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c4wmmhs70jiag"
+path="res://.godot/imported/sofa_4_2.obj-87131c22232b96eb47f4943869fe612d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/sofa_4_2.obj-87131c22232b96eb47f4943869fe612d.mesh"]
+
+source_file="res://assets/textures/PSX Mega Pack/Models/other-formats/OBJ/Furniture/sofa_4_2.obj"
+dest_files=["res://.godot/imported/sofa_4_2.obj-87131c22232b96eb47f4943869fe612d.mesh", "res://.godot/imported/sofa_4_2.obj-87131c22232b96eb47f4943869fe612d.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

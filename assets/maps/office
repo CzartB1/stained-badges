@@ -1,0 +1,148 @@
+// Game: stained badges
+// Format: Valve
+// entity 0
+{
+"mapversion" "220"
+"wad" ""
+"classname" "worldspawn"
+// brush 0
+{
+( -176 192 0 ) ( -176 8 0 ) ( -176 8 -16 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -176 8 0 ) ( 128 8 0 ) ( 128 8 -16 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 8 -16 ) ( 128 192 -16 ) ( -176 192 -16 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -176 192 0 ) ( 128 192 0 ) ( 128 8 0 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 128 192 -16 ) ( 128 192 0 ) ( -176 192 0 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 8 0 ) ( 128 192 0 ) ( 128 192 -16 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 1
+{
+( -192 192 96 ) ( -192 176 96 ) ( -192 176 0 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -192 176 96 ) ( 128 176 96 ) ( 128 176 0 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 176 0 ) ( 128 192 0 ) ( -192 192 0 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -192 192 96 ) ( 128 192 96 ) ( 128 176 96 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 128 192 0 ) ( 128 192 96 ) ( -192 192 96 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 176 96 ) ( 128 192 96 ) ( 128 192 0 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 2
+{
+( -192 -240 96 ) ( -192 -256 96 ) ( -192 -256 -32 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ 0 -1 0 -432 ] [ 0 0 -1 0 ] 90 1 1
+( -192 -256 96 ) ( 128 -256 96 ) ( 128 -256 -32 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ 1 0 0 0 ] [ 0 0 -1 0 ] 90 1 1
+( 128 -256 -32 ) ( 128 -240 -32 ) ( -192 -240 -32 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ -1 0 0 0 ] [ 0 -1 0 -432 ] 90 1 1
+( -192 -240 96 ) ( 128 -240 96 ) ( 128 -256 96 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ 1 0 0 0 ] [ 0 -1 0 -432 ] 90 1 1
+( 128 -240 -32 ) ( 128 -240 96 ) ( -192 -240 96 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ -1 0 0 0 ] [ 0 0 -1 0 ] 90 1 1
+( 128 -256 96 ) ( 128 -240 96 ) ( 128 -240 -32 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ 0 1 0 432 ] [ 0 0 -1 0 ] 90 1 1
+}
+// brush 3
+{
+( 112 176 96 ) ( 112 -240 96 ) ( 112 -240 -32 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 112 -240 96 ) ( 128 -240 96 ) ( 128 -240 -32 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 -240 -32 ) ( 128 176 -32 ) ( 112 176 -32 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 112 176 96 ) ( 128 176 96 ) ( 128 -240 96 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 128 176 -32 ) ( 128 176 96 ) ( 112 176 96 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 128 -240 96 ) ( 128 176 96 ) ( 128 176 -32 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 4
+{
+( -192 176 96 ) ( -192 -240 96 ) ( -192 -240 -32 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ 0 -1 0 0 ] [ 0 0 -1 0 ] 90 1 1
+( -192 -240 96 ) ( -176 -240 96 ) ( -176 -240 -32 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ 1 0 0 304 ] [ 0 0 -1 0 ] 90 1 1
+( -176 -240 -32 ) ( -176 176 -32 ) ( -192 176 -32 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ -1 0 0 -304 ] [ 0 -1 0 0 ] 90 1 1
+( -192 176 96 ) ( -176 176 96 ) ( -176 -240 96 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ 1 0 0 304 ] [ 0 -1 0 0 ] 90 1 1
+( -176 176 -32 ) ( -176 176 96 ) ( -192 176 96 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ -1 0 0 -304 ] [ 0 0 -1 0 ] 90 1 1
+( -176 -240 96 ) ( -176 176 96 ) ( -176 176 -32 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ 0 1 0 0 ] [ 0 0 -1 0 ] 90 1 1
+}
+// brush 5
+{
+( -192 192 112 ) ( -192 -256 112 ) ( -192 -256 96 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ 0 -1 0 0 ] [ 0 0 -1 112 ] 90 1 1
+( -192 -256 112 ) ( 128 -256 112 ) ( 128 -256 96 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ 1 0 0 0 ] [ 0 0 -1 112 ] 90 1 1
+( 128 -256 96 ) ( 128 192 96 ) ( -192 192 96 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ -1 0 0 0 ] [ 0 -1 0 0 ] 90 1 1
+( -192 192 112 ) ( 128 192 112 ) ( 128 -256 112 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ 1 0 0 0 ] [ 0 -1 0 0 ] 90 1 1
+( 128 192 96 ) ( 128 192 112 ) ( -192 192 112 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ -1 0 0 0 ] [ 0 0 -1 112 ] 90 1 1
+( 128 -256 112 ) ( 128 192 112 ) ( 128 192 96 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ 0 1 0 0 ] [ 0 0 -1 112 ] 90 1 1
+}
+// brush 6
+{
+( 104 120 80 ) ( 104 80 80 ) ( 104 80 0 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_1_door_2" [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 0.2 0.2
+( 104 80 80 ) ( 112 80 80 ) ( 112 80 0 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_1_door_2" [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.2 0.2
+( 112 80 0 ) ( 112 120 0 ) ( 104 120 0 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_1_door_2" [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 0.2 0.2
+( 104 120 80 ) ( 112 120 80 ) ( 112 80 80 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_1_door_2" [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.2 0.2
+( 112 120 0 ) ( 112 120 80 ) ( 104 120 80 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_1_door_2" [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 0.2 0.2
+( 112 80 80 ) ( 112 120 80 ) ( 112 120 0 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_1_door_2" [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.2 0.2
+}
+// brush 7
+{
+( 40 8 0 ) ( 40 -40 -16 ) ( 40 -40 -32 ) "PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2_wide_wall_3" [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 40 -40 -16 ) ( 112 -40 -16 ) ( 112 -40 -32 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 40 8 0 ) ( 112 8 0 ) ( 112 -40 -16 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 112 -40 -32 ) ( 112 8 -16 ) ( 40 8 -16 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 112 8 -16 ) ( 112 8 0 ) ( 40 8 0 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 112 -40 -16 ) ( 112 8 0 ) ( 112 8 -16 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+// brush 8
+{
+( -176 8 -16 ) ( -176 -256 -16 ) ( -176 -256 -32 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ 0 -1 0 8 ] [ 0 0 -1 -16 ] 270 1 1
+( -176 -256 -16 ) ( 128 -256 -16 ) ( 128 -256 -32 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ 1 0 0 0 ] [ 0 0 -1 -16 ] 270 1 1
+( 128 -256 -32 ) ( 128 8 -32 ) ( -176 8 -32 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ -1 0 0 0 ] [ 0 -1 0 8 ] 270 1 1
+( -176 8 -16 ) ( 128 8 -16 ) ( 128 -256 -16 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ 1 0 0 0 ] [ 0 -1 0 8 ] 270 1 1
+( 128 8 -32 ) ( 128 8 -16 ) ( -176 8 -16 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ -1 0 0 0 ] [ 0 0 -1 -16 ] 270 1 1
+( 128 -256 -16 ) ( 128 8 -16 ) ( 128 8 -32 ) "PSX Mega Pack/Models/GLB (recommended)/Furniture/tv_table_4_2_metal_6" [ 0 1 0 -8 ] [ 0 0 -1 -16 ] 270 1 1
+}
+// brush 9
+{
+( -24 -234 96 ) ( -24 -238 96 ) ( -24 -238 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 0 -1 0 0 ] [ 0 0 -1 0 ] 90 0.5 0.5
+( -24 -238 96 ) ( -22 -240 96 ) ( -22 -240 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 0.7071067811865476 -0.7071067811865476 0 2.3431702 ] [ 0 0 -1 0 ] 90 0.5 0.5
+( -22 -232 -16 ) ( -22 -232 96 ) ( -24 -234 96 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -0.7071067811865476 -0.7071067811865476 0 2.3431702 ] [ 0 0 -1 0 ] 90 0.5 0.5
+( -22 -240 96 ) ( -18 -240 96 ) ( -18 -240 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 1 0 0 -8 ] [ 0 0 -1 0 ] 90 0.5 0.5
+( -16 -238 -16 ) ( -16 -234 -16 ) ( -18 -232 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -1 0 0 8 ] [ 0 -1 0 0 ] 90 0.5 0.5
+( -18 -232 96 ) ( -16 -234 96 ) ( -16 -238 96 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 1 0 0 -8 ] [ 0 -1 0 0 ] 90 0.5 0.5
+( -18 -232 -16 ) ( -18 -232 96 ) ( -22 -232 96 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -1 0 0 8 ] [ 0 0 -1 0 ] 90 0.5 0.5
+( -18 -240 96 ) ( -16 -238 96 ) ( -16 -238 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 0.7071067811865476 0.7071067811865476 0 -2.3431702 ] [ 0 0 -1 0 ] 90 0.5 0.5
+( -18 -232 96 ) ( -18 -232 -16 ) ( -16 -234 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -0.7071067811865476 0.7071067811865476 0 13.65683 ] [ 0 0 -1 0 ] 90 0.5 0.5
+( -16 -238 96 ) ( -16 -234 96 ) ( -16 -234 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 0 1 0 0 ] [ 0 0 -1 0 ] 90 0.5 0.5
+}
+// brush 10
+{
+( -176 122 96 ) ( -176 118 96 ) ( -176 118 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -2.1649348980190553e-15 -1 0 192 ] [ 0 0 -1 0 ] 270 0.5 0.5
+( -176 118 96 ) ( -174 116 96 ) ( -174 116 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 0.7071067811865461 -0.7071067811865491 0 48.568512 ] [ 0 0 -1 0 ] 270 0.5 0.5
+( -174 124 96 ) ( -176 122 96 ) ( -176 122 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -0.7071067811865492 -0.707106781186546 0 234.27419 ] [ 0 0 -1 0 ] 270 0.5 0.5
+( -174 116 96 ) ( -170 116 96 ) ( -170 116 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 1.0000000000000002 -2.192690473634684e-15 0 -128 ] [ 0 0 -1 0 ] 270 0.5 0.5
+( -174 116 -16 ) ( -170 116 -16 ) ( -168 118 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 2.1649348980190553e-15 1 0 -192 ] [ -1.0000000000000002 2.192690473634684e-15 0 128 ] 180 0.5 0.5
+( -168 118 96 ) ( -170 116 96 ) ( -174 116 96 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -2.1649348980190553e-15 -1 0 192 ] [ -1.0000000000000002 2.192690473634684e-15 0 128 ] 0 0.5 0.5
+( -170 124 96 ) ( -174 124 96 ) ( -174 124 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -1.0000000000000002 2.192690473634684e-15 0 128 ] [ 0 0 -1 0 ] 270 0.5 0.5
+( -168 118 96 ) ( -168 118 -16 ) ( -170 116 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 0.7071067811865492 0.707106781186546 0 -218.27419 ] [ 0 0 -1 0 ] 270 0.5 0.5
+( -168 122 -16 ) ( -168 122 96 ) ( -170 124 96 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -0.7071067811865461 0.7071067811865491 0 -48.568512 ] [ 0 0 -1 0 ] 270 0.5 0.5
+( -168 118 -16 ) ( -168 118 96 ) ( -168 122 96 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 2.1649348980190553e-15 1 0 -192 ] [ 0 0 -1 0 ] 270 0.5 0.5
+}
+// brush 11
+{
+( -176 110 96 ) ( -176 106 96 ) ( -176 106 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -2.1649348980190553e-15 -1 0 168 ] [ 0 0 -1 0 ] 180 0.5 0.5
+( -176 106 96 ) ( -174 104 96 ) ( -174 104 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 0.7071067811865461 -0.7071067811865491 0 31.597961 ] [ 0 0 -1 0 ] 180 0.5 0.5
+( -174 112 96 ) ( -176 110 96 ) ( -176 110 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -0.7071067811865492 -0.707106781186546 0 217.30362 ] [ 0 0 -1 0 ] 180 0.5 0.5
+( -174 104 96 ) ( -170 104 96 ) ( -170 104 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 1.0000000000000002 -2.192690473634684e-15 0 -128 ] [ 0 0 -1 0 ] 180 0.5 0.5
+( -174 104 -16 ) ( -170 104 -16 ) ( -168 106 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 2.1649348980190553e-15 1 0 -168 ] [ -1.0000000000000002 2.192690473634684e-15 0 128 ] 90 0.5 0.5
+( -168 106 96 ) ( -170 104 96 ) ( -174 104 96 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -2.1649348980190553e-15 -1 0 168 ] [ -1.0000000000000002 2.192690473634684e-15 0 128 ] 270 0.5 0.5
+( -170 112 96 ) ( -174 112 96 ) ( -174 112 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -1.0000000000000002 2.192690473634684e-15 0 128 ] [ 0 0 -1 0 ] 180 0.5 0.5
+( -168 106 96 ) ( -168 106 -16 ) ( -170 104 -16 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 0.7071067811865492 0.707106781186546 0 -201.30362 ] [ 0 0 -1 0 ] 180 0.5 0.5
+( -168 110 -16 ) ( -168 110 96 ) ( -170 112 96 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -0.7071067811865461 0.7071067811865491 0 -31.597961 ] [ 0 0 -1 0 ] 180 0.5 0.5
+( -168 106 -16 ) ( -168 106 96 ) ( -168 110 96 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 2.1649348980190553e-15 1 0 -168 ] [ 0 0 -1 0 ] 180 0.5 0.5
+}
+// brush 12
+{
+( -176 128 56 ) ( -176 100 56 ) ( -176 100 8 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -2.1649348980190553e-15 -1 0 88 ] [ 0 0 -1 0 ] 90 1 1
+( -176 100 56 ) ( -160 100 56 ) ( -160 100 8 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 1.0000000000000002 -2.192690473634684e-15 0 -64 ] [ 0 0 -1 0 ] 90 1 1
+( -176 100 8 ) ( -160 100 8 ) ( -160 128 8 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 2.1649348980190553e-15 1 0 -88 ] [ -1.0000000000000002 2.192690473634684e-15 0 64 ] 0 1 1
+( -160 128 56 ) ( -160 100 56 ) ( -176 100 56 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -2.1649348980190553e-15 -1 0 88 ] [ -1.0000000000000002 2.192690473634684e-15 0 64 ] 180 1 1
+( -160 128 56 ) ( -176 128 56 ) ( -176 128 8 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -1.0000000000000002 2.192690473634684e-15 0 64 ] [ 0 0 -1 0 ] 90 1 1
+( -160 100 8 ) ( -160 100 56 ) ( -160 128 56 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 2.1649348980190553e-15 1 0 -88 ] [ 0 0 -1 0 ] 90 1 1
+}
+// brush 13
+{
+( -28 -228 56 ) ( -28 -240 56 ) ( -28 -240 8 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -28 -232 32 ) ( -24 -228 32 ) ( -24 -228 160 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -0.7071067811865476 -0.7071067811865476 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -28 -240 56 ) ( -12 -240 56 ) ( -12 -240 8 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -12 -240 8 ) ( -12 -228 8 ) ( -28 -228 8 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -28 -228 56 ) ( -12 -228 56 ) ( -12 -240 56 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -12 -228 8 ) ( -12 -228 56 ) ( -28 -228 56 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -16 -228 32 ) ( -12 -232 32 ) ( -12 -232 160 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ -0.7071067811865476 0.7071067811865476 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -12 -240 56 ) ( -12 -228 56 ) ( -12 -228 8 ) "PSX Mega Pack/Models/other-formats/DAE/Modular Structures/metal_mp_6" [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+}

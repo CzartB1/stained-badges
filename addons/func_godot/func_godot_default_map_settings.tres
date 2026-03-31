@@ -7,4 +7,5 @@
 
 [resource]
 script = ExtResource("1_dlf23")
-base_texture_dir = "res://assets/textures/"
+use_groups_hierarchy = true
+base_texture_dir = "res://assets/textures"

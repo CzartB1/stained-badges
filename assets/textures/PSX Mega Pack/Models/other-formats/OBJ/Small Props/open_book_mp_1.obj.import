@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b60ykvk13ein6"
+path="res://.godot/imported/open_book_mp_1.obj-2288d964d39c846be482a90d6bfb5ddc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/open_book_mp_1.obj-2288d964d39c846be482a90d6bfb5ddc.mesh"]
+
+source_file="res://assets/textures/PSX Mega Pack/Models/other-formats/OBJ/Small Props/open_book_mp_1.obj"
+dest_files=["res://.godot/imported/open_book_mp_1.obj-2288d964d39c846be482a90d6bfb5ddc.mesh", "res://.godot/imported/open_book_mp_1.obj-2288d964d39c846be482a90d6bfb5ddc.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

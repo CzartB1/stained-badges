@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="FileResource" format=3 uid="uid://b34vh5hdvq60u"]
+
+[ext_resource type="Texture2D" uid="uid://bimvqugocs8b7" path="res://assets/img/cases/Normal FIle.png" id="1_phkq1"]
+[ext_resource type="Script" uid="uid://b7mtj844d5ml8" path="res://assets/scripts/file_resource.gd" id="2_x712t"]
+
+[resource]
+script = ExtResource("2_x712t")
+img = ExtResource("1_phkq1")
+file_importance = 1
+metadata/_custom_type_script = "uid://b7mtj844d5ml8"

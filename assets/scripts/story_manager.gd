@@ -14,6 +14,9 @@ extends Node
 var call_queue:Array[DialogueResource]
 var prio_call_queue:Array[DialogueResource]
 
+@export_group("sus route")
+@export var sus_intro_dialogue:DialogueResource
+
 ## story progression tracker
 var incomp_event:int=0 #0 = 1st strike; 1 = 2nd strike; 2 = fired
 var sus_event:int=0
@@ -41,6 +44,7 @@ func check_for_calls():
 func check_sus_route():
 	if suspicion>=1 and sus_event<=0:
 		sus_event=1
+		phone.current_dialogue=sus_intro_dialogue
 		print("[STORY] play event 1")
 	elif suspicion>=4 and sus_event<=1:
 		sus_event=2

@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://778g1qf01iu3"]
+
+[ext_resource type="Texture2D" uid="uid://dyi6fcva71ryv" path="res://assets/textures/PSX Mega Pack/Textures/plastic_mp_3.png" id="1_xfocn"]
+
+[resource]
+albedo_texture = ExtResource("1_xfocn")
+metallic_specular = 0.0
+texture_filter = 2

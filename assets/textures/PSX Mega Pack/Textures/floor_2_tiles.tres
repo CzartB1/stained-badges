@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://0sb81otrkteb"]
+
+[ext_resource type="Texture2D" uid="uid://b56y6vxrxoqb6" path="res://assets/textures/PSX Mega Pack/Textures/floor_2_tiles.jpg" id="1_fm7bn"]
+
+[resource]
+albedo_texture = ExtResource("1_fm7bn")
+metallic_specular = 0.0
+texture_filter = 2

@@ -16,7 +16,7 @@ func new_file(file:FileResource):
 	print("[FILE HOLDER] current file importance: "+str(file.importance.find_key(file.file_importance)))
 
 func _process(delta: float) -> void:
-	hand.visible=current_file!=null
+	hand.visible=current_file!=null and !file_shower.visible
 	if current_file:
 		if Input.is_action_just_pressed("read_file"):
 			print("[FILE HOLDER] reading file")

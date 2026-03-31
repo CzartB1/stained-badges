@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dr8fu4861jq3f"
+path="res://.godot/imported/bed_4.obj-6f826e48c9a4a2ea165f07c5f3c3fa8a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bed_4.obj-6f826e48c9a4a2ea165f07c5f3c3fa8a.mesh"]
+
+source_file="res://assets/textures/PSX Mega Pack/Models/other-formats/OBJ/Furniture/bed_4.obj"
+dest_files=["res://.godot/imported/bed_4.obj-6f826e48c9a4a2ea165f07c5f3c3fa8a.mesh", "res://.godot/imported/bed_4.obj-6f826e48c9a4a2ea165f07c5f3c3fa8a.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="FileResource" format=3 uid="uid://cwl2a1gv7m5tt"]
 
-[ext_resource type="Texture2D" uid="uid://chlb5j5534aij" path="res://assets/img/placeholder/JJUW2O7CRBNH5M7YIQDRW335JQ.webp" id="1_0wfgm"]
+[ext_resource type="Texture2D" uid="uid://j30bb77bqxi5" path="res://assets/img/cases/Corruption FIle.png" id="1_0wfgm"]
 [ext_resource type="Script" uid="uid://b7mtj844d5ml8" path="res://assets/scripts/file_resource.gd" id="1_rx4rd"]
 
 [resource]
