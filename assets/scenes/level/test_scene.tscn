@@ -15,7 +15,9 @@
 [ext_resource type="Script" uid="uid://by2rpy20ri1eo" path="res://assets/scripts/door.gd" id="7_ocf4w"]
 [ext_resource type="Resource" uid="uid://b34vh5hdvq60u" path="res://assets/resources/files/imp2.tres" id="9_dlpej"]
 [ext_resource type="Script" uid="uid://csvd5aqnyt6ey" path="res://assets/scripts/econ_manager.gd" id="9_drwea"]
+[ext_resource type="Resource" uid="uid://b5mebfqfbeftr" path="res://assets/resources/files/imp3.tres" id="9_lv232"]
 [ext_resource type="Texture2D" uid="uid://dh2miykiwnys3" path="res://assets/img/cases/closed file.png" id="11_7ad5d"]
+[ext_resource type="Resource" uid="uid://bbjdb5dbeky6w" path="res://assets/resources/files/unimp2.tres" id="11_ctkqd"]
 [ext_resource type="Resource" uid="uid://d0qyj3axv62tt" path="res://assets/dialogues/sus_intro.dialogue" id="11_xwq7v"]
 [ext_resource type="Script" uid="uid://cwu5cf7a0awcd" path="res://addons/func_godot/src/map/func_godot_map.gd" id="12_id2gj"]
 [ext_resource type="Resource" uid="uid://bkhxcqsquw1yg" path="res://addons/func_godot/func_godot_default_map_settings.tres" id="13_gvcuf"]
@@ -877,7 +879,7 @@ econ = NodePath("../econ_manager")
 
 [node name="file_database" type="Node" parent="managers" unique_id=2141345450 node_paths=PackedStringArray("story", "day")]
 script = ExtResource("7_5eqnl")
-files = Array[ExtResource("3_kokmn")]([ExtResource("20_87hjn"), ExtResource("17_h36ui"), ExtResource("16_6jp2c"), ExtResource("9_dlpej")])
+files = Array[ExtResource("3_kokmn")]([ExtResource("20_87hjn"), ExtResource("16_6jp2c"), ExtResource("9_dlpej"), ExtResource("9_lv232"), ExtResource("17_h36ui"), ExtResource("11_ctkqd")])
 story = NodePath("../story_manager")
 day = NodePath("../day_manager")
 
